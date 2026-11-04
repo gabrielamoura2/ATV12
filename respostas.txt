@@ -1,0 +1,8 @@
+--- DIAGNÓSTICO DA PARTE 2 ---
+
+1- Mensagem exata do erro:
+FAILED test_main.py::test_somar - AssertionError: assert {'resultado': 2} == {'resultado': 8}
+
+2- Análise do erro (Esperado vs Recebido):
+. O Pytest esperava receber: {'resultado': 8} (resultado da soma 10 + 20 no teste)
+. O Pytest recebeu: {'resultado': 2} (pois a função main.py estava executando a subtração)
